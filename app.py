@@ -132,6 +132,11 @@ elif st.session_state.page == 2:
         "p3": "No ignoring rule 😤😂",
         "p4": "Hum week me ek baar meet karenge 🥹",
         "p5": "Tu apna khayal properly rakhegi ✨",
+        "p6": "Mahine mein 2-3 baar date karlenge 💕",
+        "p7": "Humesha ek dusre ko respect karenge 🙌",
+        "p8": "Har din ek dusre ko appreciate karenge 🌸",
+        "p9": "Hum agar ladenge bhi to phir se patchup karlenge 😅",
+        "p10": "Tu hamesha meri best friend rahegi 💖"
     }
 
     points_pdf = {k: v.encode("latin-1", "ignore").decode() for k, v in points_ui.items()}
