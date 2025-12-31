@@ -136,8 +136,10 @@ elif st.session_state.page == 2:
         "p7": "Humesha ek dusre ko respect karenge 🙌",
         "p8": "Har din ek dusre ko appreciate karenge 🌸",
         "p9": "Hum agar ladenge bhi to phir se patchup karlenge 😅",
-        "p10": "Tu hamesha meri best friend rahegi 💖"
-    }
+        "p10": "Tu hamesha meri best friend rahegi 💖",
+        "p11": "Kabhi kabhi tu mujhe woh permissions bhi degi you know cutie what I say",
+        "p12": "Hum dono milke life ko enjoy karenge 🎉",        
+                }
 
     points_pdf = {k: v.encode("latin-1", "ignore").decode() for k, v in points_ui.items()}
 
